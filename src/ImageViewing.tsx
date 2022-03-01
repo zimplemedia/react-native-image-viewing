@@ -42,7 +42,7 @@ type Props = {
   delayLongPress?: number;
   HeaderComponent?: ComponentType<{ imageIndex: number }>;
   FooterComponent?: ComponentType<{ imageIndex: number }>;
-  supportedOrientations?: string;
+  supportedOrientations?: ModalProps["supportedOrientations"];
 };
 
 const DEFAULT_ANIMATION_TYPE = "fade";
